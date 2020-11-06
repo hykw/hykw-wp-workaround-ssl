@@ -8,5 +8,6 @@
 */
 
 add_action( 'mu_plugin_loaded', function () {
+  echo 'xxxxxxxx: debug';
   $_SERVER['HTTPS']='on';
 });
